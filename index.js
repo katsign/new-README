@@ -58,7 +58,7 @@ inquirer.prompt([
         name: 'test',
         message: 'Run and list tests here.'
     },
-    //Questions
+    //Contact
     { //GitHub SN
         type: 'input',
         name: 'github',
@@ -69,4 +69,56 @@ inquirer.prompt([
         name: 'githubURL',
         message: 'What is your GitHub profile URL?'
     },
-])
+]).then(answers => {
+    const { title, badge, subhead, description, installation, usage, contributing, screenshot, test, github, githubURL, license } = answers;
+
+    //README Template
+
+const READMEfile = `# ${title}
+![GitHub license](${badge})
+
+### ${subhead}
+
+## *Table of Contents*
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## *Description*
+${description}
+
+## *Installation*
+${installation}
+
+## *Usage*
+${usage}
+
+## *Screenshots*
+![](${screenshot})
+
+## *Contributing*
+${contributing}
+
+## *Tests*
+${test}
+
+## *Questions?*
+- Github: **[${github}](${githubURL})
+
+---
+This project is ${license} licensed. &copy; 2021`
+
+fs.writeFile("README.md", READMEfile, err => {
+    if(err){
+        console.log;ongotpointercapture(err);
+    }else{
+        console.log("Thank you! Your README file is ready.");
+    }
+});
+
+});
