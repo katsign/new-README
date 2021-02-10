@@ -115,7 +115,7 @@ This project is ${license} licensed. &copy; 2021`
 
 fs.writeFile("README.md", READMEfile, err => {
     if(err){
-        console.log;ongotpointercapture(err);
+        console.log(err);
     }else{
         console.log("Thank you! Your README file is ready.");
     }
