@@ -25,10 +25,10 @@ Using a command line markdown generator removes the extra formatting steps, leav
 Type `node index.js` in the terminal, then go through the prompts, pressing `ENTER` after each response.
 
 ## *Screenshots*
-![](n/a)
+![demo screenshot](./assets/screenshot1.png)
 
 ## *Contributing*
-Sure, clone or fork and make your additions! It's open source.
+Clone or fork and make your additions! It's open source.
 
 ## *Tests*
 n/a
@@ -37,4 +37,4 @@ n/a
 - Github: [katsign](https://github.com/katsign)
 
 ---
-This project is  licensed. &copy; 2021
+This project is MIT licensed. &copy; 2021
