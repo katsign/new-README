@@ -1,14 +1,72 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-// TODO: Create an array of questions for user input
-const questions = [];
+inquirer.prompt([
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+    { //Title
+        type: 'input',
+        name: 'title',
+        message: 'What is the title of this project?'
+    },
+    { //Subhead
+        type: 'input',
+        name: 'subhead',
+        message: 'Please enter a one-sentence blurb describing the project.'
+    },
+    { //Description
+        type: 'input',
+        name: 'description',
+        message: 'Write your detailed project description here.'
+    },
+    { //Installation
+        type: 'input',
+        name: 'installation',
+        message: 'Enter installation instructions.'
+    },
+    { //Usage
+        type: 'input',
+        name: 'usage',
+        message: 'What does a user do with this project?'
+    },
+    { //License
+        type: 'checkbox',
+        name: 'license',
+        message: 'Choose a license.',
+        choices: [
+            'MIT',
+            'GNU GPLv3',
+            'Apache-2.0',
+            'ISC']
+    },
+    { //Badge
+        type: 'input',
+        name: 'badge',
+        message: 'Paste your badge URL here. (For info and choice, https://shields.io/)'
+    },
+    { //Contributing
+        type: 'input',
+        name: 'contributing',
+        message: 'Can users contribute, and if so, how?'
+    },
+    { //Screenshots
+        type: 'input',
+        name: 'screenshot',
+        message: 'Enter the screenshot or walkthrough URL here.'
+    },
+    { //Tests
+        type: 'input',
+        name: 'test',
+        message: 'Run and list tests here.'
+    },
+    //Questions
+    { //GitHub SN
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?'
+    },
+    { //GitHub URL
+        type: 'input',
+        name: 'githubURL',
+        message: 'What is your GitHub profile URL?'
+    },
+])
