@@ -108,7 +108,7 @@ ${contributing}
 ${test}
 
 ## *Questions?*
-- Github: **[${github}](${githubURL})
+- Github: [${github}](${githubURL})
 
 ---
 This project is ${license} licensed. &copy; 2021`
