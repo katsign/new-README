@@ -25,13 +25,8 @@ Using a command line markdown generator removes the extra formatting steps, leav
 Type `node index.js` in the terminal, then go through the prompts, pressing `ENTER` after each response.
 
 ## *Screenshots*
+### VIDEO WALKTHROUGH: https://vimeo.com/511197007
 ![screenshot of terminal](./assets/screenshot1.png)
-
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://player.vimeo.com/video/511197007" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
 
 ## *Contributing*
 Contributions are welcome, feel free to clone or fork and make your additions! It's open source.
