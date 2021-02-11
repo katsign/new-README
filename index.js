@@ -108,7 +108,7 @@ ${contributing}
 ${test}
 
 ## *Questions?*
-- Github: [${github}](${githubURL})
+- My Profile: [${github}](${githubURL})
 
 ---
 This project is ${license} licensed. &copy; 2021`
