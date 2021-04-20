@@ -1,5 +1,8 @@
-# Node README Generator :speech_balloon:
-![GitHub license](https://img.shields.io/badge/License-MIT-orange)
+<div align="center">
+
+# Node README Generator 💬
+![GitHub license](https://img.shields.io/badge/License-MIT-red)
+</div>
 
 ### Spend more time building and less time formatting markdown with this professional README generator.
 
@@ -25,17 +28,20 @@ Using a command line markdown generator removes the extra formatting steps, leav
 Type `node index.js` in the terminal, then go through the prompts, pressing `ENTER` after each response.
 
 ## *Screenshots*
-### VIDEO WALKTHROUGH: https://vimeo.com/511197007
+### 🎥 [Video Walkthrough](https://vimeo.com/511197007)
+
 ![screenshot of terminal](./assets/screenshot1.png)
 
 ## *Contributing*
-Contributions are welcome, feel free to clone or fork and make your additions! It's open source.
+Contributions are welcome, feel free to clone or fork and make your additions!
 
 ## *Tests*
-n/a
+N/A
 
 ## *Questions?*
-- My Profile: [katsign](https://github.com/katsign)
+🔗 Links in Bio @[katsign](https://github.com/katsign)
+
+![Email Badge](https://img.shields.io/badge/Email%20Me-mailtokatsign%40gmail.com-d8bfd8)
 
 ---
 This project is MIT licensed. &copy; 2021
